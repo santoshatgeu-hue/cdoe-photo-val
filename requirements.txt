@@ -1,8 +1,5 @@
-streamlit
-opencv-python-headless
-numpy
-Pillow
-google-api-python-client
-google-auth
-google-auth-httplib2
-google-auth-oauthlib
+streamlit==1.39.0
+requests>=2.31.0
+msal>=1.28.0
+opencv-python-headless>=4.10.0.84
+numpy>=1.26.0
