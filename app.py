@@ -7,7 +7,7 @@ from pydrive2.auth import ServiceAccountCredentials
 from pydrive2.drive import GoogleDrive
 
 # -------- CONFIGURATION --------
-FOLDER_ID = "YOUR_SHARED_FOLDER_ID"  # Replace with actual folder ID
+FOLDER_ID = "1G9ockBnC4pIHPU1MS8FvmeCkLdFXvo-8"  # Replace with actual folder ID
 CREDENTIALS_FILE = "credentials.json"  # Service account key file
 # --------------------------------
 
