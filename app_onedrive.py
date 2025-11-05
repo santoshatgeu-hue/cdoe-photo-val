@@ -62,7 +62,7 @@ if "access_token" not in st.session_state:
 # -------------------------------
 if uploaded_file and student_id and st.session_state["access_token"]:
     bytes_data = uploaded_file.read()
-    st.image(bytes_data, caption="Uploaded Image", width="stretch")
+    st.image(bytes_data, caption="Uploaded Image")
 
     with st.spinner("Analyzing photo..."):
         if detect_full_face(bytes_data):
